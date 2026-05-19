@@ -1,0 +1,32 @@
+# 依赖包
+node_modules/
+
+# 环境变量（含密钥，勿提交）
+.env
+.env.local
+.env.*.local
+
+# 系统/驱动日志
+NVIDIA Corporation/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编译产物
+dist/
+build/
+out/
+
+# 日志
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
